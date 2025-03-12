@@ -1,0 +1,780 @@
+// Paleta de colores caygesp
+$color-01: #002060;
+$color-02: #0074c3;
+$color-03: #00b4ff;
+$color-04: #5aafe9;
+$color-05: #2adab3;
+$color-06: #ffffff;
+$color-07: #ebebeb;
+$color-08: #6d6d6d;
+$color-09: #f8b137;
+$color-wp: #03bf2b;
+$colo-hover-wp: #028c20;
+
+@mixin mobile {
+  @media screen and (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 1199px) {
+    @content;
+  }
+}
+
+.modal-dialog {
+  max-width: 60%;
+  top: 2% !important;
+  margin: 0px auto !important;
+  @include mobile {
+    max-width: 90%;
+  }
+}
+
+main {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: "Inter", serif;
+}
+
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+
+.nav-mondragon {
+  background-color: $color-01;
+  padding: 30px 0px 30px 0px !important;
+  .navbar-nav {
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .nav-link-01 {
+    font-size: 15px;
+    font-weight: 300;
+    color: $color-06 !important;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid $color-05;
+    padding-bottom: 10px;
+  }
+  .nav-link-01:hover {
+    color: $color-05 !important;
+  }
+  .nav-link-02 {
+    font-size: 15px;
+    font-weight: 300;
+    color: $color-06 !important;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid $color-03;
+    padding-bottom: 10px;
+  }
+  .nav-link-02:hover {
+    color: $color-03 !important;
+  }
+  .logo {
+    width: 100px;
+    margin-left: 2rem;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: white;
+  background-color: white;
+}
+
+.carousel-inner {
+  height: auto !important;
+  width: 100% !important;
+  img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+}
+
+.carousel-caption {
+  background-image: url("../img/back-light-blue.png");
+  width: 100%;
+  height: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow: hidden;
+  position: absolute;
+  left: 0 !important;
+  padding: 40px 0px 40px 0px !important;
+  bottom: 0 !important;
+  @include mobile {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    left: 0 !important;
+    top: auto;
+    padding: 20px 0px 20px 0px !important;
+  }
+  .description {
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+    text-align: left;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: $color-06;
+    text-align: center;
+    @include mobile {
+      font-size: 20px;
+      font-weight: unset;
+    }
+  }
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: $color-06;
+    text-align: center;
+    @include mobile {
+      font-size: 15px;
+      text-align: center;
+      font-weight: normal;
+    }
+  }
+  .button-slider {
+    display: block;
+    background-color: $color-02;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: $color-03;
+    text-transform: uppercase;
+  }
+  .button-slider:hover {
+    background-color: $color-02;
+    color: $color-05;
+  }
+}
+
+.productos {
+  background-color: $color-06;
+  h2 {
+    margin-bottom: 5%;
+    font-weight: normal;
+    font-size: 40px;
+    color: $color-01;
+    text-transform: uppercase;
+    border-bottom: 2px solid $color-05;
+    width: auto;
+    margin: 0px auto;
+    @include mobile {
+      font-size: 30px;
+      width: 90%;
+    }
+  }
+  .description {
+    position: relative;
+    color: $color-08;
+    font-size: 30pxx;
+    &::before {
+      content: " ";
+      position: absolute;
+      border: 1px solid $color-01;
+      height: 100%;
+      left: -20px;
+    }
+  }
+  .child {
+    padding: 10px;
+  }
+  img {
+    width: 60%;
+  }
+  .title {
+    font-size: 30px;
+    color: $color-01;
+    font-weight: normal;
+    margin-bottom: 0px !important;
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+  small {
+    color: $color-03;
+    font-weight: normal;
+    @include mobile {
+      font-weight: normal;
+    }
+  }
+  p {
+    font-size: 20px;
+    color: $color-08;
+    font-weight: lighter;
+    @include mobile {
+      font-size: 15px;
+      width: 100%;
+      font-weight: normal;
+    }
+  }
+  .WhatsApp {
+    display: flex;
+    width: 450px;
+    border: 0px;
+    padding: 8px 30px 8px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: $color-06;
+    background-color: $color-05;
+    text-align: right;
+    text-decoration: none;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    @include tablet {
+      width: 70%;
+      font-size: 12px;
+      margin: 0px auto;
+      justify-content: center;
+    }
+    @include mobile {
+      width: 100%;
+      font-size: 10px;
+      color: $color-07;
+      font-weight: bold;
+      margin: 0px auto;
+      justify-content: center;
+    }
+  }
+  .WhatsApp:hover {
+    background-color: $color-04;
+  }
+  .bi-whatsapp {
+    font-size: 20px;
+    margin-right: 2%;
+    color: $color-06;
+  }
+  .icon {
+    color: $color-01;
+    font-size: 30px;
+    &:hover {
+      color: $color-03;
+    }
+  }
+}
+
+.servicios {
+  background-color: $color-06;
+  .title-2 {
+    margin-bottom: 5%;
+    font-weight: normal;
+    font-size: 40px;
+    color: $color-01;
+    text-transform: uppercase;
+    margin: 0px auto;
+    border-bottom: 2px solid $color-05;
+    display: block;
+    width: auto;
+    @include mobile {
+      font-size: 30px;
+      width: 90%;
+    }
+  }
+  .description {
+    position: relative;
+    color: $color-08;
+    font-size: 20px;
+    &::before {
+      content: " ";
+      position: absolute;
+      border: 1px solid $color-01;
+      height: 100%;
+      left: -20px;
+    }
+  }
+  .child {
+    padding: 10px;
+  }
+  img {
+    width: 200px;
+  }
+  .title {
+    font-size: 30px;
+    color: $color-01;
+    font-weight: normal;
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+  .box {
+    height: 170px;
+  }
+  p {
+    font-size: 20px;
+    color: $color-08;
+    font-weight: lighter;
+    @include mobile {
+      font-size: 20px;
+      width: 100%;
+    }
+  }
+  .button-info {
+    margin: 0px auto;
+    display: flex;
+    width: 250px;
+    border: 0px;
+    padding: 10px;
+    border-radius: 50px;
+    color: $color-07;
+    background-color: $color-02;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    @include mobile {
+      width: 70%;
+      font-size: 15px;
+    }
+  }
+  .button-info:hover {
+    background-color: $color-03;
+  }
+  small {
+    @include mobile {
+      font-weight: normal;
+    }
+  }
+}
+
+.modelo {
+  background-color: $color-06;
+  .title {
+    margin-bottom: 5%;
+    font-weight: normal;
+    font-size: 40px;
+    color: $color-01;
+    text-transform: uppercase;
+    margin: 0px auto;
+    border-bottom: 2px solid $color-05;
+    display: block;
+    width: auto;
+    @include mobile {
+      font-size: 30px;
+      width: 90%;
+    }
+  }
+  img {
+    width: 50%;
+    @include mobile {
+      width: 100%;
+    }
+  }
+}
+
+.relevant-date {
+  background-color: $color-06;
+  .title {
+    font-weight: lighter;
+    font-size: 60px;
+    color: $color-01;
+    text-transform: uppercase;
+    margin: 0px auto;
+    border-bottom: 2px solid $color-05;
+    display: block;
+    width: auto;
+    margin-bottom: 2rem !important;
+    @include mobile {
+      font-size: 40px;
+      width: 90%;
+    }
+  }
+  .back-blue {
+    background-color: $color-01;
+  }
+  .back-blue-light {
+    background-color: $color-02;
+  }
+  p {
+    margin-bottom: 0px !important;
+    color: $color-07;
+    font-size: 25px;
+    font-weight: lighter;
+    @include mobile {
+      font-size: 15px;
+    }
+  }
+}
+
+.diferenciadores {
+  background-color: $color-06;
+  .title {
+    font-weight: normal;
+    font-size: 40px;
+    color: $color-01;
+    text-transform: uppercase;
+    margin: 0px auto;
+    border-bottom: 2px solid $color-05;
+    display: block;
+    width: auto;
+    margin-bottom: 2rem !important;
+    @include mobile {
+      font-size: 30px;
+      width: 90%;
+    }
+  }
+  .number {
+    color: $color-07;
+    font-size: 100px;
+    font-weight: 300;
+    @include mobile {
+      font-size: 50px;
+    }
+  }
+  p {
+    color: $color-07;
+    font-size: 30px;
+    font-weight: lighter;
+    @include mobile {
+      font-size: 20px;
+      font-weight: normal;
+    }
+  }
+  img {
+    border-radius: 150px;
+    width: 200px;
+  }
+  .back-blue-light {
+    background-color: $color-08;
+    &-1 {
+      background-color: $color-01;
+    }
+    &-2 {
+      background-color: $color-02;
+    }
+    &-3 {
+      background-color: $color-03;
+    }
+  }
+}
+
+.include {
+  background-color: $color-03;
+  h1 {
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: $color-01;
+    @include mobile {
+      font-size: 35px;
+    }
+  }
+  p {
+    color: $color-05;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+}
+
+.box-sets {
+  font-weight: lighter;
+  font-size: 20px;
+  ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  li {
+    line-height: 2.5rem;
+  }
+  .box-set-one {
+    color: $color-01;
+    background-color: $color-02;
+  }
+  .box-set-two {
+    color: $color-05;
+    background-color: $color-04;
+  }
+}
+
+.agencys {
+  background-color: $color-01;
+  h1 {
+    font-weight: lighter;
+    font-size: 80px;
+    color: $color-03;
+    @include mobile {
+      font-size: 35px;
+    }
+  }
+  p {
+    color: $color-02;
+    font-size: 40px;
+    font-weight: lighter;
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+  .p-blue {
+    font-size: 30px;
+    font-weight: lighter;
+    color: $color-03;
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+  img {
+    width: 200px;
+  }
+}
+
+.profession {
+  background-color: $color-01;
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: $color-05;
+    @include mobile {
+      font-size: 17px;
+      text-align: center;
+    }
+  }
+  img {
+    width: 100%;
+  }
+  .container-nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-profession {
+    padding: 30px 40px 30px 40px;
+  }
+  .title {
+    font-size: 25px;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  .description {
+    font-size: 20px;
+    font-weight: 300;
+    @include mobile {
+      font-size: 15px;
+    }
+  }
+}
+
+.social-media {
+  background-color: $color-02;
+  color: $color-01;
+  .h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+  i {
+    font-size: 100px;
+    @include mobile {
+      font-size: 70px;
+    }
+  }
+}
+
+.contacto {
+  background-color: $color-06;
+  color: white;
+  h3 {
+    font-size: 40px;
+    font-weight: normal;
+    color: $color-01;
+    text-transform: uppercase;
+    border-bottom: 2px solid $color-05;
+    width: auto;
+    margin: 0px auto;
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+  p {
+    font-size: 40px;
+    margin-bottom: 5%;
+    color: $color-02;
+    font-weight: lighter;
+    @include mobile {
+      font-size: 25px;
+    }
+  }
+  i {
+    font-size: 100px;
+    font-weight: lighter;
+  }
+  .title {
+    font-size: 30px;
+    color: yellow;
+    font-weight: 100;
+  }
+  .title-social {
+    text-transform: uppercase;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    li {
+      font-size: 20px;
+      font-weight: 300;
+      color: $color-01;
+      @include mobile {
+        font-size: 15px;
+      }
+    }
+  }
+  .link-mail {
+    text-decoration: none;
+    color: $color-01;
+    &:hover {
+      color: $color-02;
+    }
+  }
+  .WhatsApp {
+    margin: 0px auto;
+    display: flex;
+    border: 0px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: $color-01;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    @include mobile {
+      width: 100%;
+    }
+  }
+  .WhatsApp:hover {
+    color: $color-02;
+  }
+  .icon-whatsapp {
+    color: $color-01;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .icon-whatsapp:hover {
+    color: $color-02;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .icon {
+    color: $color-01;
+    padding: 40px;
+    font-size: 100px;
+  }
+  h4 {
+    color: $color-01;
+  }
+  .form-label {
+    color: $color-01;
+  }
+  input {
+    border: 1px solid $color-01;
+  }
+  textarea {
+    border: 1px solid $color-01;
+  }
+  select {
+    border: 1px solid $color-01;
+  }
+  button {
+    background-color: $color-01;
+    color: $color-06;
+    border: 0px;
+    &:hover {
+      background-color: $color-02;
+    }
+  }
+}
+
+.hours {
+  background-color: $color-04;
+  color: $color-05;
+  .h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    @include mobile {
+      font-size: 25px;
+    }
+  }
+  p {
+    font-size: 25px;
+    font-weight: 200;
+    @include mobile {
+      font-size: 15px;
+    }
+  }
+}
+
+.adress {
+  padding: 20px 0px 20px 0px;
+  background-color: $color-02;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  @include mobile {
+    font-size: 12px;
+  }
+  a {
+    display: block;
+    padding: 10px;
+  }
+  .icon-facebook {
+    width: 21px;
+  }
+  .icon-instagram {
+    width: 40px;
+  }
+}
+
+.button-whatsapp {
+  background-color: $color-wp;
+  width: 80px;
+  height: 80px;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  right: 20px;
+  bottom: 20px;
+  opacity: 0.8;
+  cursor: pointer;
+  .icon {
+    font-size: 50px;
+    color: $color-06;
+  }
+  &:hover {
+    background-color: #028c20;
+  }
+}
+
+footer {
+  background-color: $color-01;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  .pie-addmx {
+    font-size: 12px;
+  }
+  a {
+    text-decoration: none;
+    color: $color-02;
+  }
+}

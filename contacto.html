@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Serna Mondragón Abogados</title>
+    <meta name="description"
+        content="En Serna Mondragón, nos enorgullece ser el aliado estratégico que tu empresa necesita. Con un enfoque profesional y multidisciplinario, brindamos servicios legales y corporativos que responden a los desafíos más complejos de tu negocio.">
+    <meta name="keywords" content="Recuperación de Cartera 
+Vencida & Work out,Litigio,Gestión Notarial,Asesoría Jurídica 
+Integral,Corporativo,Diagnóstico Puntual, Proceso Operativo, Asociados, Abogados, Serna, Mondragón, Gestionamos">
+    <link href="./css/stylesheet.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="./img/logo-serna-mondragon-icon.png" />
+    <link rel="shortcut icon" type="image/jpg" href="./img/logo-serna-mondragon-icon.png" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="container-fluid">
+
+        <!-- Navegador-->
+        <nav class="navbar navbar-expand-lg navbar-light  nav-mondragon">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo" src="./img/logo-serna-mondragon.png" alt="serna-mondragon-abogados-1997" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mb-4 mb-sm-4 mb-lg-0 mb-xl-0">
+                            <a class="nav-link-01" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mb-4 mb-sm-4 mb-lg-0 mb-xl-0">
+                            <a class="nav-link-02" href="servicios.html">Nuestros Servicios</a>
+                        </li>
+                        <li class="nav-item mb-4 mb-sm-4 mb-lg-0 mb-xl-0">
+                            <a class="nav-link-01" href="equipo-de-trabajo.html">Equipo de trabajo</a>
+                        </li>
+                        <li class="nav-item mb-4 mb-sm-4 mb-lg-0 mb-xl-0">
+                            <a class="nav-link-02" href="#contacto">Contactanos</a>
+                        </li>
+                        <li class="nav-item mb-4 mb-sm-4 mb-lg-0 mb-xl-0">
+                            <a class="nav-link-01" href="noticias.html">Noticias</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carrusel  -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/banner-05.png" class="img-fluid d-none d-md-block w-100" alt="img-01">
+                    <img src="./img/banner-mobile-04.png" class="img-fluid d-block d-md-none w-100" alt="img-01">
+                    <div class="carousel-caption  d-md-block">
+                        <div class="description">
+                            <p>Contactanos</p>
+                            <p>En Serna Mondragón Abogados, estamos aquí para escuchar tus inquietudes legales y
+                                ofrecerte soluciones personalizadas.
+                                Contáctanos y permite que nuestro equipo de expertos te brinde el respaldo que
+                                necesitas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulario de Contacto -->
+        <div class="row productos p-5" id="noticias">
+            <h2 class="mb-5 text-center">Contactanos</h2>
+            <div class="row">
+                <form action="contacto.php" method="POST" class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre completo"
+                            required>
+                        <div class="invalid-feedback">
+                            Por favor ingresa tu nombre.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Teléfono</label>
+                        <input type="tel" class="form-control" id="telefono" placeholder="Número de télefono"
+                            name="telefono" pattern="[0-9]{10}" required>
+                        <div class="invalid-feedback">
+                            Por favor ingresa un número de teléfono válido (10 dígitos).
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="Escribe tu e-mail" name="email"
+                            required>
+                        <div class="invalid-feedback">
+                            Por favor ingresa un correo válido.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                        <div class="invalid-feedback">
+                            Por favor escribe un mensaje.
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-30">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <!--  Contacto -->
+        <div class="row text-center contacto p-5" id="contacto">
+            <section class="row mb-5">
+                <aside class="col-12 col-sm-12  col-md-6 col-lg-4 col-xxl-4">
+                    <i class="bi bi-clock icon"></i>
+                    <ul>
+                        <li class="mb-4">
+                            L –V 9:00 a 18:00 hrs.
+                        </li>
+                    </ul>
+                </aside>
+                <aside class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-4">
+                    <i class="bi bi-envelope icon"></i>
+                    <ul>
+                        <li>
+                            <a class="link-mail" href="mailto:contacto@sernaabogados.com" target="_blank">
+                                contacto@sernaabogados.com
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
+                <aside class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-4">
+                    <i class="bi bi-globe2 icon"></i>
+                    <ul>
+                        <li>
+                            <a class="link-mail" href="https://sernaabogados.mx/" target="_blank">
+                                www.sernaabogados.mx
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
+                <aside class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6">
+                    <i class="bi bi-geo-alt icon"></i>
+                    <ul>
+                        <li>
+                            Sierra Gorda 42, piso 3, <br> col. Lomas de Chapultepec, <br> Miguel Hidalgo.
+                        </li>
+                    </ul>
+                </aside>
+                <aside class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6">
+                    <i class="bi bi-telephone icon"></i>
+                    <ul>
+                        <li>
+                            <a class="WhatsApp" href="tel:+525518576683">
+                                (52) 55-18-57-66-83
+                            </a>
+                            <a class="WhatsApp" href="tel:+525511691374">
+                                (52) 55-11-69-13-74
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
+            </section>
+        </div>
+
+        <div class="row">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6703229290747!2d-99.2224025!3d19.4266453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2018865455555%3A0x6e6da98437a9967c!2sSerna%20Mondrag%C3%B3n%20Abogados!5e0!3m2!1ses!2smx!4v1736648731837!5m2!1ses!2smx"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center p-5 text-center">
+            <p>Serna Mondragón Abogados S.C - ©1997</p>
+        </footer>
+
+        <a class="button-whatsapp" href="https://wa.me/5543318404/?text= Serna Mondragón Abogados" target="_blank">
+            <i class="bi bi-whatsapp icon"></i>
+        </a>
+    </main>
+
+    <!-- Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Validación de formulario -->
+    <script>
+        // Validación de Bootstrap
+        (function () {
+            'use strict'
+            var forms = document.querySelectorAll('.needs-validation')
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+</body>
+
+</html>
