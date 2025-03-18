@@ -7,7 +7,7 @@ $color-05: #2adab3;
 $color-06: #ffffff;
 $color-07: #ebebeb;
 $color-08: #000000;
-$color-10: #f0f0f0;
+$color-09: #676767;
 $color-wp: #03bf2b;
 $colo-hover-wp: #028c20;
 
@@ -86,6 +86,9 @@ main {
   .logo {
     width: 100px;
     margin-left: 2rem;
+  }
+  .navbar-toggler {
+    background-color: $color-06;
   }
 }
 
@@ -428,7 +431,7 @@ main {
     width: 200px;
   }
   .back-blue-light {
-    background-color: $color-08;
+    background-color: $color-09;
     &-1 {
       background-color: $color-01;
     }
@@ -559,7 +562,7 @@ main {
 
 .formularios {
   font-family: $font-primary;
-  background-color: $color-10;
+  background-color: $color-07;
   h3 {
     font-size: 40px;
     font-weight: normal;
