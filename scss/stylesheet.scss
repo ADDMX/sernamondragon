@@ -1,4 +1,4 @@
-// Paleta de colores caygesp
+// Paleta de colores serna mondragon
 $color-01: #002060;
 $color-02: #0074c3;
 $color-03: #00b4ff;
@@ -6,10 +6,19 @@ $color-04: #5aafe9;
 $color-05: #2adab3;
 $color-06: #ffffff;
 $color-07: #ebebeb;
-$color-08: #6d6d6d;
-$color-09: #f8b137;
+$color-08: #000000;
+$color-10: #f0f0f0;
 $color-wp: #03bf2b;
 $colo-hover-wp: #028c20;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;400;700&display=swap");
+
+$font-primary: "Roboto Flex", sans-serif;
+
+body {
+  font-family: $font-primary;
+  font-weight: 400;
+}
 
 @mixin mobile {
   @media screen and (max-width: 576px) {
@@ -35,7 +44,6 @@ $colo-hover-wp: #028c20;
 main {
   margin: 0px !important;
   padding: 0px !important;
-  font-family: "Inter", serif;
 }
 
 .row {
@@ -45,6 +53,7 @@ main {
 .nav-mondragon {
   background-color: $color-01;
   padding: 30px 0px 30px 0px !important;
+  font-family: $font-primary;
   .navbar-nav {
     justify-content: space-around;
     align-items: center;
@@ -80,13 +89,8 @@ main {
   }
 }
 
-.navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.55);
-  border-color: white;
-  background-color: white;
-}
-
 .carousel-inner {
+  font-family: $font-primary;
   height: auto !important;
   width: 100% !important;
   img {
@@ -133,7 +137,8 @@ main {
   }
   p {
     font-size: 20px;
-    font-weight: lighter;
+    font-weight: 200;
+    font-family: $font-primary;
     color: $color-06;
     text-align: center;
     @include mobile {
@@ -160,11 +165,13 @@ main {
 }
 
 .productos {
+  font-family: $font-primary;
   background-color: $color-06;
   h2 {
     margin-bottom: 5%;
     font-weight: normal;
     font-size: 40px;
+    font-family: $font-primary;
     color: $color-01;
     text-transform: uppercase;
     border-bottom: 2px solid $color-05;
@@ -178,7 +185,8 @@ main {
   .description {
     position: relative;
     color: $color-08;
-    font-size: 30pxx;
+    font-size: 20px;
+    font-family: $font-primary;
     &::before {
       content: " ";
       position: absolute;
@@ -194,6 +202,7 @@ main {
     width: 60%;
   }
   .title {
+    font-family: $font-primary;
     font-size: 30px;
     color: $color-01;
     font-weight: normal;
@@ -210,13 +219,14 @@ main {
     }
   }
   p {
+    font-family: $font-primary;
     font-size: 20px;
     color: $color-08;
-    font-weight: lighter;
+    font-weight: 200;
     @include mobile {
       font-size: 15px;
       width: 100%;
-      font-weight: normal;
+      font-weight: 200;
     }
   }
   .WhatsApp {
@@ -267,6 +277,7 @@ main {
 }
 
 .servicios {
+  font-family: $font-primary;
   background-color: $color-06;
   .title-2 {
     margin-bottom: 5%;
@@ -275,7 +286,7 @@ main {
     color: $color-01;
     text-transform: uppercase;
     margin: 0px auto;
-    border-bottom: 2px solid $color-05;
+    border-bottom: 2px solid $color-03;
     display: block;
     width: auto;
     @include mobile {
@@ -352,6 +363,7 @@ main {
 }
 
 .modelo {
+  font-family: $font-primary;
   background-color: $color-06;
   .title {
     margin-bottom: 5%;
@@ -360,7 +372,7 @@ main {
     color: $color-01;
     text-transform: uppercase;
     margin: 0px auto;
-    border-bottom: 2px solid $color-05;
+    border-bottom: 2px solid $color-03;
     display: block;
     width: auto;
     @include mobile {
@@ -376,41 +388,8 @@ main {
   }
 }
 
-.relevant-date {
-  background-color: $color-06;
-  .title {
-    font-weight: lighter;
-    font-size: 60px;
-    color: $color-01;
-    text-transform: uppercase;
-    margin: 0px auto;
-    border-bottom: 2px solid $color-05;
-    display: block;
-    width: auto;
-    margin-bottom: 2rem !important;
-    @include mobile {
-      font-size: 40px;
-      width: 90%;
-    }
-  }
-  .back-blue {
-    background-color: $color-01;
-  }
-  .back-blue-light {
-    background-color: $color-02;
-  }
-  p {
-    margin-bottom: 0px !important;
-    color: $color-07;
-    font-size: 25px;
-    font-weight: lighter;
-    @include mobile {
-      font-size: 15px;
-    }
-  }
-}
-
 .diferenciadores {
+  font-family: $font-primary;
   background-color: $color-06;
   .title {
     font-weight: normal;
@@ -462,133 +441,10 @@ main {
   }
 }
 
-.include {
-  background-color: $color-03;
-  h1 {
-    font-weight: lighter;
-    text-transform: uppercase;
-    font-size: 50px;
-    color: $color-01;
-    @include mobile {
-      font-size: 35px;
-    }
-  }
-  p {
-    color: $color-05;
-    font-size: 30px;
-    font-weight: lighter;
-  }
-}
-
-.box-sets {
-  font-weight: lighter;
-  font-size: 20px;
-  ul {
-    list-style: none;
-    padding-left: 0px;
-  }
-  li {
-    line-height: 2.5rem;
-  }
-  .box-set-one {
-    color: $color-01;
-    background-color: $color-02;
-  }
-  .box-set-two {
-    color: $color-05;
-    background-color: $color-04;
-  }
-}
-
-.agencys {
-  background-color: $color-01;
-  h1 {
-    font-weight: lighter;
-    font-size: 80px;
-    color: $color-03;
-    @include mobile {
-      font-size: 35px;
-    }
-  }
-  p {
-    color: $color-02;
-    font-size: 40px;
-    font-weight: lighter;
-    @include mobile {
-      font-size: 20px;
-    }
-  }
-  .p-blue {
-    font-size: 30px;
-    font-weight: lighter;
-    color: $color-03;
-    @include mobile {
-      font-size: 20px;
-    }
-  }
-  img {
-    width: 200px;
-  }
-}
-
-.profession {
-  background-color: $color-01;
-  p {
-    font-size: 20px;
-    font-weight: lighter;
-    color: $color-05;
-    @include mobile {
-      font-size: 17px;
-      text-align: center;
-    }
-  }
-  img {
-    width: 100%;
-  }
-  .container-nosotros {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .section-profession {
-    padding: 30px 40px 30px 40px;
-  }
-  .title {
-    font-size: 25px;
-    font-weight: 200;
-    text-transform: uppercase;
-  }
-  .description {
-    font-size: 20px;
-    font-weight: 300;
-    @include mobile {
-      font-size: 15px;
-    }
-  }
-}
-
-.social-media {
-  background-color: $color-02;
-  color: $color-01;
-  .h1 {
-    font-size: 50px;
-    font-weight: lighter;
-    text-transform: uppercase;
-    @include mobile {
-      font-size: 30px;
-    }
-  }
-  i {
-    font-size: 100px;
-    @include mobile {
-      font-size: 70px;
-    }
-  }
-}
-
 .contacto {
+  font-family: $font-primary;
   background-color: $color-06;
-  color: white;
+  color: $color-07;
   h3 {
     font-size: 40px;
     font-weight: normal;
@@ -701,49 +557,123 @@ main {
   }
 }
 
-.hours {
-  background-color: $color-04;
-  color: $color-05;
-  .h1 {
-    font-size: 50px;
+.formularios {
+  font-family: $font-primary;
+  background-color: $color-10;
+  h3 {
+    font-size: 40px;
+    font-weight: normal;
+    color: $color-01;
     text-transform: uppercase;
+    border-bottom: 2px solid $color-05;
+    width: auto;
+    margin: 0px auto;
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+  p {
+    font-size: 40px;
+    margin-bottom: 5%;
+    color: $color-02;
     font-weight: lighter;
     @include mobile {
       font-size: 25px;
     }
   }
-  p {
-    font-size: 25px;
-    font-weight: 200;
+  i {
+    font-size: 100px;
+    font-weight: lighter;
+  }
+  .title {
+    font-size: 30px;
+    color: yellow;
+    font-weight: 100;
+  }
+  .title-social {
+    text-transform: uppercase;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    li {
+      font-size: 20px;
+      font-weight: 300;
+      color: $color-01;
+      @include mobile {
+        font-size: 15px;
+      }
+    }
+  }
+  .link-mail {
+    text-decoration: none;
+    color: $color-01;
+    &:hover {
+      color: $color-02;
+    }
+  }
+  .WhatsApp {
+    margin: 0px auto;
+    display: flex;
+    border: 0px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: $color-01;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
     @include mobile {
-      font-size: 15px;
+      width: 100%;
+    }
+  }
+  .WhatsApp:hover {
+    color: $color-02;
+  }
+  .icon-whatsapp {
+    color: $color-01;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .icon-whatsapp:hover {
+    color: $color-02;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .icon {
+    color: $color-01;
+    padding: 40px;
+    font-size: 100px;
+  }
+  h4 {
+    color: $color-01;
+  }
+  .form-label {
+    color: $color-01;
+  }
+  input {
+    border: 1px solid $color-01;
+  }
+  textarea {
+    border: 1px solid $color-05;
+  }
+  select {
+    border: 1px solid $color-01;
+  }
+  button {
+    background-color: $color-02;
+    color: $color-07;
+    border: 0px;
+    &:hover {
+      background-color: $color-04;
     }
   }
 }
 
-.adress {
-  padding: 20px 0px 20px 0px;
-  background-color: $color-02;
-  color: white;
-  font-size: 20px;
-  font-weight: 200;
-  @include mobile {
-    font-size: 12px;
-  }
-  a {
-    display: block;
-    padding: 10px;
-  }
-  .icon-facebook {
-    width: 21px;
-  }
-  .icon-instagram {
-    width: 40px;
-  }
-}
-
 .button-whatsapp {
-  background-color: $color-wp;
+  background-color: #03bf2b;
   width: 80px;
   height: 80px;
   border-radius: 70px;
@@ -756,7 +686,7 @@ main {
   bottom: 20px;
   opacity: 0.8;
   cursor: pointer;
-  .icon {
+  .bi-whatsapp {
     font-size: 50px;
     color: $color-06;
   }
@@ -766,6 +696,7 @@ main {
 }
 
 footer {
+  font-family: $font-primary;
   background-color: $color-01;
   color: white;
   font-size: 15px;

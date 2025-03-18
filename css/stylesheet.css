@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;400;700&display=swap");
+body {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+}
+
 .modal-dialog {
   max-width: 60%;
   top: 2% !important;
@@ -12,7 +18,6 @@
 main {
   margin: 0px !important;
   padding: 0px !important;
-  font-family: "Inter", serif;
 }
 
 .row {
@@ -22,6 +27,7 @@ main {
 .nav-mondragon {
   background-color: #002060;
   padding: 30px 0px 30px 0px !important;
+  font-family: "Roboto Flex", sans-serif;
 }
 .nav-mondragon .navbar-nav {
   justify-content: space-around;
@@ -57,13 +63,8 @@ main {
   margin-left: 2rem;
 }
 
-.navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.55);
-  border-color: white;
-  background-color: white;
-}
-
 .carousel-inner {
+  font-family: "Roboto Flex", sans-serif;
   height: auto !important;
   width: 100% !important;
 }
@@ -116,7 +117,8 @@ main {
 }
 .carousel-caption p {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 200;
+  font-family: "Roboto Flex", sans-serif;
   color: #ffffff;
   text-align: center;
 }
@@ -144,12 +146,14 @@ main {
 }
 
 .productos {
+  font-family: "Roboto Flex", sans-serif;
   background-color: #ffffff;
 }
 .productos h2 {
   margin-bottom: 5%;
   font-weight: normal;
   font-size: 40px;
+  font-family: "Roboto Flex", sans-serif;
   color: #002060;
   text-transform: uppercase;
   border-bottom: 2px solid #2adab3;
@@ -164,8 +168,9 @@ main {
 }
 .productos .description {
   position: relative;
-  color: #6d6d6d;
-  font-size: 30pxx;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Roboto Flex", sans-serif;
 }
 .productos .description::before {
   content: " ";
@@ -181,6 +186,7 @@ main {
   width: 60%;
 }
 .productos .title {
+  font-family: "Roboto Flex", sans-serif;
   font-size: 30px;
   color: #002060;
   font-weight: normal;
@@ -201,15 +207,16 @@ main {
   }
 }
 .productos p {
+  font-family: "Roboto Flex", sans-serif;
   font-size: 20px;
-  color: #6d6d6d;
-  font-weight: lighter;
+  color: #000000;
+  font-weight: 200;
 }
 @media screen and (max-width: 576px) {
   .productos p {
     font-size: 15px;
     width: 100%;
-    font-weight: normal;
+    font-weight: 200;
   }
 }
 .productos .WhatsApp {
@@ -263,6 +270,7 @@ main {
 }
 
 .servicios {
+  font-family: "Roboto Flex", sans-serif;
   background-color: #ffffff;
 }
 .servicios .title-2 {
@@ -272,7 +280,7 @@ main {
   color: #002060;
   text-transform: uppercase;
   margin: 0px auto;
-  border-bottom: 2px solid #2adab3;
+  border-bottom: 2px solid #00b4ff;
   display: block;
   width: auto;
 }
@@ -284,7 +292,7 @@ main {
 }
 .servicios .description {
   position: relative;
-  color: #6d6d6d;
+  color: #000000;
   font-size: 20px;
 }
 .servicios .description::before {
@@ -315,7 +323,7 @@ main {
 }
 .servicios p {
   font-size: 20px;
-  color: #6d6d6d;
+  color: #000000;
   font-weight: lighter;
 }
 @media screen and (max-width: 576px) {
@@ -356,6 +364,7 @@ main {
 }
 
 .modelo {
+  font-family: "Roboto Flex", sans-serif;
   background-color: #ffffff;
 }
 .modelo .title {
@@ -365,7 +374,7 @@ main {
   color: #002060;
   text-transform: uppercase;
   margin: 0px auto;
-  border-bottom: 2px solid #2adab3;
+  border-bottom: 2px solid #00b4ff;
   display: block;
   width: auto;
 }
@@ -384,45 +393,8 @@ main {
   }
 }
 
-.relevant-date {
-  background-color: #ffffff;
-}
-.relevant-date .title {
-  font-weight: lighter;
-  font-size: 60px;
-  color: #002060;
-  text-transform: uppercase;
-  margin: 0px auto;
-  border-bottom: 2px solid #2adab3;
-  display: block;
-  width: auto;
-  margin-bottom: 2rem !important;
-}
-@media screen and (max-width: 576px) {
-  .relevant-date .title {
-    font-size: 40px;
-    width: 90%;
-  }
-}
-.relevant-date .back-blue {
-  background-color: #002060;
-}
-.relevant-date .back-blue-light {
-  background-color: #0074c3;
-}
-.relevant-date p {
-  margin-bottom: 0px !important;
-  color: #ebebeb;
-  font-size: 25px;
-  font-weight: lighter;
-}
-@media screen and (max-width: 576px) {
-  .relevant-date p {
-    font-size: 15px;
-  }
-}
-
 .diferenciadores {
+  font-family: "Roboto Flex", sans-serif;
   background-color: #ffffff;
 }
 .diferenciadores .title {
@@ -468,7 +440,7 @@ main {
   width: 200px;
 }
 .diferenciadores .back-blue-light {
-  background-color: #6d6d6d;
+  background-color: #000000;
 }
 .diferenciadores .back-blue-light-1 {
   background-color: #002060;
@@ -480,149 +452,10 @@ main {
   background-color: #00b4ff;
 }
 
-.include {
-  background-color: #00b4ff;
-}
-.include h1 {
-  font-weight: lighter;
-  text-transform: uppercase;
-  font-size: 50px;
-  color: #002060;
-}
-@media screen and (max-width: 576px) {
-  .include h1 {
-    font-size: 35px;
-  }
-}
-.include p {
-  color: #2adab3;
-  font-size: 30px;
-  font-weight: lighter;
-}
-
-.box-sets {
-  font-weight: lighter;
-  font-size: 20px;
-}
-.box-sets ul {
-  list-style: none;
-  padding-left: 0px;
-}
-.box-sets li {
-  line-height: 2.5rem;
-}
-.box-sets .box-set-one {
-  color: #002060;
-  background-color: #0074c3;
-}
-.box-sets .box-set-two {
-  color: #2adab3;
-  background-color: #5aafe9;
-}
-
-.agencys {
-  background-color: #002060;
-}
-.agencys h1 {
-  font-weight: lighter;
-  font-size: 80px;
-  color: #00b4ff;
-}
-@media screen and (max-width: 576px) {
-  .agencys h1 {
-    font-size: 35px;
-  }
-}
-.agencys p {
-  color: #0074c3;
-  font-size: 40px;
-  font-weight: lighter;
-}
-@media screen and (max-width: 576px) {
-  .agencys p {
-    font-size: 20px;
-  }
-}
-.agencys .p-blue {
-  font-size: 30px;
-  font-weight: lighter;
-  color: #00b4ff;
-}
-@media screen and (max-width: 576px) {
-  .agencys .p-blue {
-    font-size: 20px;
-  }
-}
-.agencys img {
-  width: 200px;
-}
-
-.profession {
-  background-color: #002060;
-}
-.profession p {
-  font-size: 20px;
-  font-weight: lighter;
-  color: #2adab3;
-}
-@media screen and (max-width: 576px) {
-  .profession p {
-    font-size: 17px;
-    text-align: center;
-  }
-}
-.profession img {
-  width: 100%;
-}
-.profession .container-nosotros {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.profession .section-profession {
-  padding: 30px 40px 30px 40px;
-}
-.profession .title {
-  font-size: 25px;
-  font-weight: 200;
-  text-transform: uppercase;
-}
-.profession .description {
-  font-size: 20px;
-  font-weight: 300;
-}
-@media screen and (max-width: 576px) {
-  .profession .description {
-    font-size: 15px;
-  }
-}
-
-.social-media {
-  background-color: #0074c3;
-  color: #002060;
-}
-.social-media .h1 {
-  font-size: 50px;
-  font-weight: lighter;
-  text-transform: uppercase;
-}
-@media screen and (max-width: 576px) {
-  .social-media .h1 {
-    font-size: 30px;
-  }
-}
-.social-media i {
-  font-size: 100px;
-}
-@media screen and (max-width: 576px) {
-  .social-media i {
-    font-size: 70px;
-  }
-}
-
 .contacto {
+  font-family: "Roboto Flex", sans-serif;
   background-color: #ffffff;
-  color: white;
+  color: #ebebeb;
 }
 .contacto h3 {
   font-size: 40px;
@@ -743,51 +576,127 @@ main {
   background-color: #0074c3;
 }
 
-.hours {
-  background-color: #5aafe9;
-  color: #2adab3;
+.formularios {
+  font-family: "Roboto Flex", sans-serif;
+  background-color: #f0f0f0;
 }
-.hours .h1 {
-  font-size: 50px;
+.formularios h3 {
+  font-size: 40px;
+  font-weight: normal;
+  color: #002060;
   text-transform: uppercase;
+  border-bottom: 2px solid #2adab3;
+  width: auto;
+  margin: 0px auto;
+}
+@media screen and (max-width: 576px) {
+  .formularios h3 {
+    font-size: 30px;
+  }
+}
+.formularios p {
+  font-size: 40px;
+  margin-bottom: 5%;
+  color: #0074c3;
   font-weight: lighter;
 }
 @media screen and (max-width: 576px) {
-  .hours .h1 {
+  .formularios p {
     font-size: 25px;
   }
 }
-.hours p {
-  font-size: 25px;
-  font-weight: 200;
+.formularios i {
+  font-size: 100px;
+  font-weight: lighter;
+}
+.formularios .title {
+  font-size: 30px;
+  color: yellow;
+  font-weight: 100;
+}
+.formularios .title-social {
+  text-transform: uppercase;
+}
+.formularios ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.formularios ul li {
+  font-size: 20px;
+  font-weight: 300;
+  color: #002060;
 }
 @media screen and (max-width: 576px) {
-  .hours p {
+  .formularios ul li {
     font-size: 15px;
   }
 }
-
-.adress {
-  padding: 20px 0px 20px 0px;
-  background-color: #0074c3;
-  color: white;
+.formularios .link-mail {
+  text-decoration: none;
+  color: #002060;
+}
+.formularios .link-mail:hover {
+  color: #0074c3;
+}
+.formularios .WhatsApp {
+  margin: 0px auto;
+  display: flex;
+  border: 0px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: #002060;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
   font-size: 20px;
-  font-weight: 200;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 576px) {
-  .adress {
-    font-size: 12px;
+  .formularios .WhatsApp {
+    width: 100%;
   }
 }
-.adress a {
-  display: block;
-  padding: 10px;
+.formularios .WhatsApp:hover {
+  color: #0074c3;
 }
-.adress .icon-facebook {
-  width: 21px;
+.formularios .icon-whatsapp {
+  color: #002060;
+  font-size: 25px;
+  margin-right: 10px;
 }
-.adress .icon-instagram {
-  width: 40px;
+.formularios .icon-whatsapp:hover {
+  color: #0074c3;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.formularios .icon {
+  color: #002060;
+  padding: 40px;
+  font-size: 100px;
+}
+.formularios h4 {
+  color: #002060;
+}
+.formularios .form-label {
+  color: #002060;
+}
+.formularios input {
+  border: 1px solid #002060;
+}
+.formularios textarea {
+  border: 1px solid #2adab3;
+}
+.formularios select {
+  border: 1px solid #002060;
+}
+.formularios button {
+  background-color: #0074c3;
+  color: #ebebeb;
+  border: 0px;
+}
+.formularios button:hover {
+  background-color: #5aafe9;
 }
 
 .button-whatsapp {
@@ -805,7 +714,7 @@ main {
   opacity: 0.8;
   cursor: pointer;
 }
-.button-whatsapp .icon {
+.button-whatsapp .bi-whatsapp {
   font-size: 50px;
   color: #ffffff;
 }
@@ -814,6 +723,7 @@ main {
 }
 
 footer {
+  font-family: "Roboto Flex", sans-serif;
   background-color: #002060;
   color: white;
   font-size: 15px;
