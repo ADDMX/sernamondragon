@@ -1,0 +1,560 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Rubik", sans-serif !important;
+}
+
+.header {
+  background-image: url("../img/back-web.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+.header img {
+  width: 150px;
+}
+.header p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.social-media-section {
+  background-color: white;
+}
+.social-media-section .WhatsApp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-color: #25d366;
+  border: 0px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-media-section .WhatsApp:hover {
+  background-color: #128c7e;
+  color: white;
+}
+.social-media-section .WhatsApp i {
+  font-size: 25px;
+}
+.social-media-section .Telegram {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-color: #1b92d1;
+  border: 0px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-media-section .Telegram:hover {
+  background-color: #37afe2;
+  color: white;
+}
+.social-media-section .Telegram i {
+  font-size: 25px;
+}
+.social-media-section .Phone {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-color: #000000;
+  border: 0px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-media-section .Phone:hover {
+  background-color: #2f2f2f;
+  color: white;
+}
+.social-media-section .Phone i {
+  font-size: 25px;
+}
+.social-media-section .E-mail {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-color: #f2e600;
+  border: 0px;
+  color: black;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-media-section .E-mail:hover {
+  background-color: #beb501;
+  color: white;
+}
+.social-media-section .E-mail i {
+  font-size: 25px;
+}
+.social-media-section .Tik-tok {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-color: #ff0050;
+  border: 0px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-media-section .Tik-tok:hover {
+  background-color: #00f2ea;
+  color: black;
+}
+.social-media-section .Tik-tok i {
+  font-size: 25px;
+}
+.social-media-section .You-tube {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-color: #e62117;
+  border: 0px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-media-section .You-tube:hover {
+  background-color: #000000;
+  color: white;
+}
+.social-media-section .You-tube i {
+  font-size: 25px;
+}
+.social-media-section .Instagram {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-color: #dd2a7b;
+  border: 0px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-media-section .Instagram:hover {
+  background-color: #feda77;
+  color: black;
+}
+.social-media-section .Instagram i {
+  font-size: 25px;
+}
+.social-media-section .Linkedin {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-color: #0e76a8;
+  border: 0px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-media-section .Linkedin:hover {
+  background-color: #000000;
+  color: white;
+}
+.social-media-section .Linkedin i {
+  font-size: 25px;
+}
+.social-media-section .Site-web {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-color: #729100;
+  border: 0px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-media-section .Site-web:hover {
+  background-color: #97c100;
+  color: black;
+}
+.social-media-section .Site-web i {
+  font-size: 25px;
+}
+.social-media-section .Twitter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-color: rgb(29, 155, 240);
+  border: 0px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-media-section .Twitter:hover {
+  background-color: rgb(18, 122, 192);
+  color: white;
+}
+.social-media-section .Twitter i {
+  font-size: 25px;
+}
+.social-media-section .Pinterest {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-color: #bd081c;
+  border: 0px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-media-section .Pinterest:hover {
+  background-color: #efefef;
+  color: black;
+}
+.social-media-section .Pinterest i {
+  font-size: 25px;
+}
+.social-media-section .Facebook {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-color: #3b5998;
+  border: 0px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-media-section .Facebook:hover {
+  background-color: #4b68a7;
+  color: white;
+}
+.social-media-section .Facebook i {
+  font-size: 25px;
+}
+
+.carousel-section {
+  background-color: white;
+}
+.carousel-section .h2 {
+  color: #0e76a8;
+}
+
+.section-adress {
+  background-color: white;
+  padding-top: 2rem;
+}
+.section-adress .h2 {
+  color: #0e76a8;
+  font-weight: normal;
+}
+.section-adress p {
+  color: #000000;
+  font-weight: lighter;
+}
+.section-adress i {
+  color: #e62117;
+}
+
+.section-qr {
+  background-color: white;
+}
+.section-qr .h2 {
+  color: #0e76a8;
+}
+.section-qr .qr-border {
+  border: 15px solid #fffae8;
+  border-radius: 20px;
+}
+
+.section-shared {
+  background-color: white;
+}
+.section-shared .h2 {
+  color: #0e76a8;
+}
+.section-shared .email {
+  width: 90%;
+  background-color: #f2e600;
+  border: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  color: black;
+  text-decoration: none;
+}
+.section-shared .email:hover {
+  background-color: #beb501;
+  color: white;
+}
+.section-shared .twitter {
+  width: 90%;
+  background-color: rgb(29, 155, 240);
+  border: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  color: white;
+  text-decoration: none;
+}
+.section-shared .twitter:hover {
+  background-color: rgb(18, 122, 192);
+}
+.section-shared .linkedin {
+  width: 90%;
+  background-color: #0e76a8;
+  border: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  color: white;
+  text-decoration: none;
+}
+.section-shared .linkedin:hover {
+  background-color: #000000;
+}
+.section-shared .WhatsApp {
+  width: 90%;
+  background-color: #25d366;
+  border: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  color: white;
+  text-decoration: none;
+}
+.section-shared .WhatsApp:hover {
+  color: white;
+  background-color: #128c7e;
+}
+.section-shared .Telegram {
+  width: 90%;
+  background-color: #1b92d1;
+  border: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  color: white;
+  text-decoration: none;
+}
+.section-shared .Telegram:hover {
+  color: white;
+  background-color: #37afe2;
+}
+.section-shared .Ticktoc {
+  width: 90%;
+  background-color: #ff0050;
+  border: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  color: white;
+  text-decoration: none;
+}
+.section-shared .Ticktoc:hover {
+  color: black;
+  background-color: #00f2ea;
+}
+.section-shared .YouTube {
+  width: 90%;
+  background-color: #e62117;
+  border: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  color: white;
+  text-decoration: none;
+}
+.section-shared .YouTube:hover {
+  color: white;
+  background-color: #000000;
+}
+.section-shared .Instagram {
+  width: 90%;
+  background-color: #dd2a7b;
+  border: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  color: white;
+  text-decoration: none;
+}
+.section-shared .Instagram:hover {
+  color: black;
+  background-color: #feda77;
+}
+.section-shared .Facebook {
+  width: 90%;
+  background-color: #3b5998;
+  border: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  color: white;
+  text-decoration: none;
+}
+.section-shared .Facebook:hover {
+  color: white;
+  background-color: #4b68a7;
+}
+
+.footer {
+  background-color: #d9d9d9;
+}
+.footer .h2 {
+  color: #0e76a8;
+}
+.footer .facebook {
+  width: 65px;
+  display: block;
+  background-color: #3b5998;
+  color: white;
+  font-size: 35px;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+.footer .facebook:hover {
+  background-color: #4b68a7;
+}
+.footer .twitter {
+  width: 65px;
+  display: block;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-size: 35px;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+.footer .twitter:hover {
+  background-color: rgb(18, 122, 192);
+}
+.footer .linkedin {
+  width: 65px;
+  display: block;
+  background-color: #0e76a8;
+  color: white;
+  font-size: 35px;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+.footer .linkedin:hover {
+  background-color: #000000;
+}
+.footer .WhatsApp {
+  width: 65px;
+  display: block;
+  background-color: #25d366;
+  color: white;
+  font-size: 35px;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+.footer .WhatsApp:hover {
+  color: white;
+  background-color: #128c7e;
+}
+.footer .YouTube {
+  width: 65px;
+  display: block;
+  background-color: #e62117;
+  color: white;
+  font-size: 35px;
+  border-radius: 5px;
+  border: 0px;
+}
+.footer .YouTube:hover {
+  color: white;
+  background-color: #000000;
+}
+.footer .Instagram {
+  width: 65px;
+  display: block;
+  background-color: #dd2a7b;
+  color: white;
+  font-size: 35px;
+  border-radius: 5px;
+  border: 0px;
+}
+.footer .Instagram:hover {
+  color: black;
+  background-color: #feda77;
+}
+.footer .TickTock {
+  width: 65px;
+  display: block;
+  background-color: #ff0050;
+  color: white;
+  font-size: 35px;
+  border-radius: 5px;
+  border: 0px;
+}
+.footer .TickTock:hover {
+  color: black;
+  background-color: #00f2ea;
+}
+.footer .Pinterest {
+  width: 65px;
+  display: block;
+  background-color: #bd081c;
+  color: white;
+  font-size: 35px;
+  border-radius: 5px;
+  border: 0px;
+}
+.footer .Pinterest:hover {
+  color: black;
+  background-color: #efefef;
+}/*# sourceMappingURL=styles-tarjet-digital.css.map */

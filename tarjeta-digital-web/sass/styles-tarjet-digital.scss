@@ -1,0 +1,606 @@
+//Whatsapp
+$color-whatsapp: #25d366;
+$color-whatsapp-hover: #128c7e;
+//Facebook
+$color-facebook: #3b5998;
+$color-facebook-hover: #4b68a7;
+//Instagram
+$color-instagram: #dd2a7b;
+$color-instagram-hover: #feda77;
+//Twitter
+$color-twitter: rgb(29, 155, 240);
+$color-twitter-hover: rgb(18, 122, 192);
+//Linkedin
+$color-linkedin: #0e76a8;
+$color-linkedin-hover: #000000;
+//Telefono
+$color-telefono: #000000;
+$color-telefono-hover: #2f2f2f;
+//Telegram
+$color-telegram: #1b92d1;
+$color-telegram-hover: #37afe2;
+//Email
+$color-email: #f2e600;
+$color-email-hover: #beb501;
+//YouTube
+$color-youtube: #e62117;
+$color-youtube-hover: #000000;
+//TickTock
+$color-ticktock: #ff0050;
+$color-ticktock-hover: #00f2ea;
+//Pinterest
+$color-pinterest: #bd081c;
+$color-pinterest-hover: #efefef;
+//SiteWeb
+$color-site: #729100;
+$color-site-hover: #97c100;
+//Font fammily
+$font-stack: "Rubik", sans-serif;
+//Color Primary
+$text-color-primary: #000000;
+//Color titles and paragraphs
+$back-social-media: #dedede;
+$back-footer: #d9d9d9;
+$titles: #0e76a8;
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: $font-stack !important;
+}
+
+.header {
+  background-image: url("../img/back-web.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: white;
+
+  img {
+    width: 150px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: lighter;
+  }
+}
+
+.social-media-section {
+  background-color: white;
+  .WhatsApp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: $color-whatsapp;
+    border: 0px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-whatsapp-hover;
+      color: white;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+  .Telegram {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: $color-telegram;
+    border: 0px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-telegram-hover;
+      color: white;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+  .Phone {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: $color-telefono;
+    border: 0px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-telefono-hover;
+      color: white;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+  .E-mail {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: $color-email;
+    border: 0px;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-email-hover;
+      color: white;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+  .Tik-tok {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: $color-ticktock;
+    border: 0px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-ticktock-hover;
+      color: black;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+  .You-tube {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: $color-youtube;
+    border: 0px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-youtube-hover;
+      color: white;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+  .Instagram {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: $color-instagram;
+    border: 0px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-instagram-hover;
+      color: black;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+  .Linkedin {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: $color-linkedin;
+    border: 0px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-linkedin-hover;
+      color: white;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+  .Site-web {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: $color-site;
+    border: 0px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-site-hover;
+      color: black;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+  .Twitter {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: $color-twitter;
+    border: 0px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-twitter-hover;
+      color: white;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+  .Pinterest {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: $color-pinterest;
+    border: 0px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-pinterest-hover;
+      color: black;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+  .Facebook {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: $color-facebook;
+    border: 0px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-facebook-hover;
+      color: white;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+}
+
+.carousel-section {
+  background-color: white;
+  .h2 {
+    color: $titles;
+  }
+}
+
+.section-adress {
+  background-color: white;
+  padding-top: 2rem;
+  .h2 {
+    color: $titles;
+    font-weight: normal;
+  }
+  p {
+    color: $text-color-primary;
+    font-weight: lighter;
+  }
+  i {
+    color: $color-youtube;
+  }
+}
+
+.section-qr {
+  background-color: white;
+  .h2 {
+    color: $titles;
+  }
+  .qr-border {
+    border: 15px solid #fffae8;
+    border-radius: 20px;
+  }
+}
+
+.section-shared {
+  background-color: white;
+  .h2 {
+    color: $titles;
+  }
+  .email {
+    width: 90%;
+    background-color: $color-email;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    color: black;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-email-hover;
+      color: white;
+    }
+  }
+  .twitter {
+    width: 90%;
+    background-color: $color-twitter;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-twitter-hover;
+    }
+  }
+  .linkedin {
+    width: 90%;
+    background-color: $color-linkedin;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-linkedin-hover;
+    }
+  }
+  .WhatsApp {
+    width: 90%;
+    background-color: $color-whatsapp;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: white;
+      background-color: $color-whatsapp-hover;
+    }
+  }
+  .Telegram {
+    width: 90%;
+    background-color: $color-telegram;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: white;
+      background-color: $color-telegram-hover;
+    }
+  }
+  .Ticktoc {
+    width: 90%;
+    background-color: $color-ticktock;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: black;
+      background-color: $color-ticktock-hover;
+    }
+  }
+  .YouTube {
+    width: 90%;
+    background-color: $color-youtube;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: white;
+      background-color: $color-youtube-hover;
+    }
+  }
+  .Instagram {
+    width: 90%;
+    background-color: $color-instagram;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: black;
+      background-color: $color-instagram-hover;
+    }
+  }
+  .Facebook {
+    width: 90%;
+    background-color: $color-facebook;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: white;
+      background-color: $color-facebook-hover;
+    }
+  }
+}
+
+.footer {
+  background-color: $back-footer;
+  .h2 {
+    color: $titles;
+  }
+  .facebook {
+    width: 65px;
+    display: block;
+    background-color: $color-facebook;
+    color: white;
+    font-size: 35px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    &:hover {
+      background-color: $color-facebook-hover;
+    }
+  }
+  .twitter {
+    width: 65px;
+    display: block;
+    background-color: $color-twitter;
+    color: white;
+    font-size: 35px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    &:hover {
+      background-color: $color-twitter-hover;
+    }
+  }
+  .linkedin {
+    width: 65px;
+    display: block;
+    background-color: $color-linkedin;
+    color: white;
+    font-size: 35px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    &:hover {
+      background-color: $color-linkedin-hover;
+    }
+  }
+  .WhatsApp {
+    width: 65px;
+    display: block;
+    background-color: $color-whatsapp;
+    color: white;
+    font-size: 35px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    &:hover {
+      color: white;
+      background-color: $color-whatsapp-hover;
+    }
+  }
+  .YouTube {
+    width: 65px;
+    display: block;
+    background-color: $color-youtube;
+    color: white;
+    font-size: 35px;
+    border-radius: 5px;
+    border: 0px;
+    &:hover {
+      color: white;
+      background-color: $color-youtube-hover;
+    }
+  }
+  .Instagram {
+    width: 65px;
+    display: block;
+    background-color: $color-instagram;
+    color: white;
+    font-size: 35px;
+    border-radius: 5px;
+    border: 0px;
+    &:hover {
+      color: black;
+      background-color: $color-instagram-hover;
+    }
+  }
+  .TickTock {
+    width: 65px;
+    display: block;
+    background-color: $color-ticktock;
+    color: white;
+    font-size: 35px;
+    border-radius: 5px;
+    border: 0px;
+    &:hover {
+      color: black;
+      background-color: $color-ticktock-hover;
+    }
+  }
+  .Pinterest {
+    width: 65px;
+    display: block;
+    background-color: $color-pinterest;
+    color: white;
+    font-size: 35px;
+    border-radius: 5px;
+    border: 0px;
+    &:hover {
+      color: black;
+      background-color: $color-pinterest-hover;
+    }
+  }
+}
